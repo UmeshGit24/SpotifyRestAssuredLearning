@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Spotify OAuth and Playlist Test Suite">
+    <listeners>
+        <listener class-name="com.spotify.listeners.Listeners"></listener>
+    </listeners>
+
+    <test name="Spotify OAuth API Test">
+        <classes>
+            <class name="com.spotify.oauthApi.test.AccessTokenApi"></class>
+        </classes>
+    </test>
+
+    <test name="Spotify Playlist API Test">
+        <classes>
+            <class name="com.spotify.playlistApi.playlistApiTests.PlaylistApi"></class>
+        </classes>
+    </test>
+
+    <test name="Spotify User API Test">
+        <classes>
+            <class name="com.spotify.userProfileApi.userProfileApiTest.UserProfileApi"></class>
+        </classes>
+    </test>
+</suite>

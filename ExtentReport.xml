@@ -1,0 +1,50 @@
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>dark</theme>
+
+        <!-- viewstyle -->
+        <!-- alt-view -->
+        <viewstyle></viewstyle>
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- offline report -->
+        <enableOfflineMode>false</enableOfflineMode>
+
+        <!-- enable or disable timeline on dashboard -->
+        <enableTimeline>true</enableTimeline>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- title of the document -->
+        <documentTitle>Spotify OAuth And Playlist API Automation Framework</documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>Spotify OAuth And Playlist</reportName>
+
+        <!-- timestamp format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+
+                });
+            ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
